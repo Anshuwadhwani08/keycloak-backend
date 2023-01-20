@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wR8SmBHZ8Y0GrLzxT9VB4XTlDu5htdA1wLXQZ9CDxqs=",
+  "Source": "keycloak auth demo api",
+  "BasePath": "_content/keycloak auth demo api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

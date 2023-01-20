@@ -1,0 +1,41 @@
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\appsettings.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\keycloak auth demo api.exe
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\keycloak auth demo api.deps.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\keycloak auth demo api.runtimeconfig.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\keycloak auth demo api.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\keycloak auth demo api.pdb
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.csproj.AssemblyReference.cache
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.AssemblyInfoInputs.cache
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.AssemblyInfo.cs
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.csproj.CoreCompileInputs.cache
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets\msbuild.keycloak auth demo api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets\msbuild.build.keycloak auth demo api.props
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.keycloak auth demo api.props
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.keycloak auth demo api.props
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\scopedcss\bundle\keycloak auth demo api.styles.css
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.csproj.CopyComplete
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\refint\keycloak auth demo api.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.pdb
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\keycloak auth demo api.genruntimeconfig.cache
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\obj\Debug\net6.0\ref\keycloak auth demo api.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\anshu\OneDrive\Desktop\.Net training\keycloak_auth project\keycloak auth demo api\keycloak auth demo api\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
