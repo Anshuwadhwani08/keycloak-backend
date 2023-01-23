@@ -1,42 +1,50 @@
-using keycloak_auth_demo_api.Authentication;
+//using keycloak_auth_demo_api.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.OpenApi.Models;
 //using keycloak_auth_demo_api.Controllers.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
-//private readonly IWebHostEnvironment currentEnvironment;
-// Add services to the container.
-builder.Services.ConfigureJWT(builder.Environment.IsDevelopment(),
-    "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArUAFD46d/Rg7usnOH6wqJLqeoD+4QGqcuE8i9xlIx2XOv2mN2Y/y9VUbe8piJEyN3AQtKeH9xct3fRs9ICdnUNDj+1YEfWqLsoEXdpjphfVYbyhGNQTjiMrof4RrNItck/YF+ae4AqEFuYD4LWR8bHA7zZbBFfw2elvGKZ9DKgjEuH4TEVgTuTgU5DMmG8fMPLEosbsLYKRKxuo6muqcSTCkfLOzLkLCHlgS5iOXDLYk9oHF4xC+KdR77zLIdHT6H8tKaVFajN+aRhv6urTDLQb66uroqdj9wJmLGpUZSioq+oGzfMYoWa+J7tFDv4hkn0qZI+IypXupBXa9lZpfHwIDAQAB");
 
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(o =>
+{
+    o.Authority = "http://localhost:8080/realms/MyRealm/";
+    o.Audience = "MyApp";
+
+    o.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+        ValidAudiences = new string[] { "master-realm", "account", "MyApp" }
+    };
+    o.Events = new JwtBearerEvents()
+    {
+        OnAuthenticationFailed = c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyWebApi", Version = "v1" });
+            c.NoResult();
+            c.Response.StatusCode = 500;
+            c.Response.ContentType = "text/plain";
+            return c.Response.WriteAsync(c.Exception.ToString());
+        }
+    };
 
-            //First we define the security scheme
-            c.AddSecurityDefinition("Bearer", //Name the security scheme
-                new OpenApiSecurityScheme
-                {
-                    Description = "JWT Authorization header using the Bearer scheme.",
-                    Type = SecuritySchemeType.Http, //We set the scheme type to http since we're using bearer authentication
-                    Scheme = JwtBearerDefaults.AuthenticationScheme //The name of the HTTP Authorization scheme to be used in the Authorization header. In this case "bearer".
-                });
+    o.RequireHttpsMetadata= false;
+    o.SaveToken= true;
+    o.Validate();
+});
 
-            c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement{
-                    {
-                        new Microsoft.OpenApi.Models.OpenApiSecurityScheme{
-                            Reference = new Microsoft.OpenApi.Models.OpenApiReference{
-                                Id = JwtBearerDefaults.AuthenticationScheme, //The name of the previously defined security scheme.
-                                Type = ReferenceType.SecurityScheme
-                            }
-                        },new List<string>()
-                    }
-            });
-        });
+builder.Services.AddAuthorization(o =>
+{
+    o.AddPolicy("Admin", policy => policy.RequireClaim("Admin","[Admin]"));
+    o.AddPolicy("superadmin", policy => policy.RequireRole("[superadmin]"));
+});
+       
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -47,7 +55,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
+//app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapControllers();

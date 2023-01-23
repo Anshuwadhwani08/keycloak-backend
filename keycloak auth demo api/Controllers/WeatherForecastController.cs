@@ -5,9 +5,10 @@ using System.Data;
 
 namespace keycloak_auth_demo_api.Controllers
 {
+    
     [ApiController]
     [Route("[controller]")]
-    [Authorize(AuthenticationSchemes = "Bearer", Roles = "Admin")]
+    
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -21,7 +22,7 @@ namespace keycloak_auth_demo_api.Controllers
         {
             _logger = logger;
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -32,6 +33,13 @@ namespace keycloak_auth_demo_api.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+        [Authorize(Roles = "superadmin")]
+        //[Route("/check")]
+        [HttpPost(Name = "check")]
+        public string checkAutho()
+        {
+            return "Not Admin Authorization is working!";
         }
     }
 }
